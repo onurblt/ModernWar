@@ -1,0 +1,28 @@
+<Module>
+    <Name value="Modern War"/> <!-- Change to your Module's name -->
+    <Id value="ModernWar"/> <!-- Change to your Module's name (no spaces) -->
+    <Version value="v1.0.0"/>
+    <SingleplayerModule value="true"/>
+    <MultiplayerModule value="false"/>
+    <Official value="false" />
+    <DependedModules>
+        <DependedModule Id="Native"/>
+        <DependedModule Id="SandBoxCore"/>
+        <DependedModule Id="Sandbox"/>
+        <DependedModule Id="CustomBattle"/>
+        <DependedModule Id="StoryMode" />
+    </DependedModules>
+    <SubModules>
+    </SubModules>
+   <Xmls>
+		<XmlNode>                
+			<XmlName id="Items" path="items"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+				<GameType value = "EditorGame"/>
+			</IncludedGameTypes>
+		</XmlNode>  
+	</Xmls>
+</Module>
