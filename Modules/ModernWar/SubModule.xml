@@ -24,5 +24,6 @@
 				<GameType value = "EditorGame"/>
 			</IncludedGameTypes>
 		</XmlNode>  
+       
 	</Xmls>
 </Module>

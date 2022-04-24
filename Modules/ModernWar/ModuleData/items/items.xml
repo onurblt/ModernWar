@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+
+  <Item id="rifle_ak47"
+      name="{=*}AK 47"
+      body_name="bo_cross_bow_heavy"
+      mesh="ak47"
+      culture="Culture.neutral_culture"
+      weight="1.0"
+      appearance="0.8"
+      difficulty="0"
+      Type="Crossbow"
+      item_holsters="crossbow_back:bow_hip:mace_right_hip:bow_hip_2"
+      holster_position_shift="0.02,0,-0.4"
+      AmmoOffset="0.0, 0.02131, 0.0">
+  <ItemComponent>
+    <Weapon weapon_class="Crossbow"
+            ammo_class="Bolt"
+            missile_speed="999"
+            accuracy="99"
+            thrust_damage="99"
+            thrust_speed="99"
+            speed_rating="99"
+            weapon_length="95"
+            ammo_limit="30"
+            thrust_damage_type="Pierce"
+            item_usage="crossbow_fast"
+            physics_material="wood_weapon"
+            center_of_mass="0,0,0.4"
+            item_modifier_group="crossbow"
+            reload_phase_count="0">
+      <WeaponFlags RangedWeapon="true"
+                   HasString="true"
+                   NotUsableWithOneHand="true"
+                   TwoHandIdleOnMount="true"
+                   AutoReload="true" />
+    </Weapon>
+  </ItemComponent>
+</Item>
+<Item id="rifle_m16"
+      name="{=*}M16"
+      body_name="bo_cross_bow_heavy"
+      mesh="m16"
+      culture="Culture.neutral_culture"
+      weight="1.0"
+      appearance="0.8"
+      difficulty="0"
+      Type="Crossbow"
+      item_holsters="crossbow_back:bow_hip:mace_right_hip:bow_hip_2"
+      holster_position_shift="0.02,0,-0.4"
+      AmmoOffset="0.0, 0.02131, 0.0">
+  <ItemComponent>
+    <Weapon weapon_class="Crossbow"
+            ammo_class="Bolt"
+            missile_speed="999"
+            accuracy="99"
+            thrust_damage="99"
+            thrust_speed="99"
+            speed_rating="99"
+            weapon_length="95"
+            ammo_limit="30"
+            thrust_damage_type="Pierce"
+            item_usage="crossbow_fast"
+            physics_material="wood_weapon"
+            center_of_mass="0,0,0.4"
+            item_modifier_group="crossbow"
+            reload_phase_count="0">
+      <WeaponFlags RangedWeapon="true"
+                   HasString="true"
+                   NotUsableWithOneHand="true"
+                   TwoHandIdleOnMount="true"
+                   AutoReload="true" />
+    </Weapon>
+  </ItemComponent>
+</Item>
+<Item id="bullets_standart"
+        name="{=*}Standart Bullets"
+        body_name="bo_capsule_arrow"
+        holster_body_name="bo_axe_short"
+        mesh="bullet"
+        holster_mesh="bullets"
+        holster_mesh_with_weapon="bullet"
+        flying_mesh="bullet"
+        culture="Culture.neutral_culture"
+        weight="0.06"
+        appearance="1"
+        Type="Bolts"
+        item_holsters="quiver_bolts:quiver_bolts_2:quiver_back_middle:quiver_back_top">
+    <ItemComponent>
+      <Weapon weapon_class="Bolt"
+              stack_amount="90"
+              thrust_speed="99"
+              thrust_damage="3"
+              thrust_damage_type="Pierce"
+              speed_rating="99"
+              missile_speed="99"
+              weapon_length="37"
+              item_usage=""
+              rotation="180, 0, 0"
+              physics_material="missile"
+              sticking_position="0,-0.37,0"
+              sticking_rotation="90,0,0"
+              center_of_mass="0,0,-0.1"
+              item_modifier_group="bolt">
+        <WeaponFlags AttachAmmoToVisual="true"
+                     Consumable="true"
+                     AmmoSticksWhenShot="true"
+                     AmmoBreaksOnBounceBack="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags ForceAttachOffHandPrimaryItemBone="true" />
+  </Item>
+ 
+  <Item id="beret"
+          name="{=*}Beret"
+          mesh="beret"
+          culture="Culture.neutral_culture"
+          weight="0.5"
+          appearance="1"
+          Type="HeadArmor">
+      <ItemComponent>
+        <Armor head_armor="3"
+              has_gender_variations="false"
+              hair_cover_type="all"
+              modifier_group="cloth_unarmoured"
+              material_type="Cloth"
+              beard_cover_type="type3" />
+      </ItemComponent>
+      <Flags UseTeamColor="true"
+      Civilian="true" />
+    </Item>
+
+ 
+</Items>
